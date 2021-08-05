@@ -22,7 +22,7 @@ export class UsersnapComponent {
     this.window.onUsersnapCXLoad = function(api) {
       api.init()
       // Replace with the Project API key from your widget configuration page
-      api.show("d8528e85-3a3c-4157-9abf-b081aca1ce76")
+      // api.show("d8528e85-3a3c-4157-9abf-b081aca1ce76")
     }
     var element = this.script.nativeElement;
     var script = document.createElement("script")
